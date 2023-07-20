@@ -317,7 +317,7 @@ background-color: rgb(var(--main-theme-cards-color));
 }
 
 .pic{
-   box-shadow: 3px 1px 1px 5px rgb(166, 166, 166) inset;    
+   box-shadow: 3px 1px 1px 5px rgb(var(--heading)) inset;    
 }
 .pic img{
     transform:translate(15%, 5%);
@@ -411,13 +411,15 @@ box-shadow: inset 0px -20px 0px 0px #fff;
  
 }
 
+.sk:hover .icon, .skillsCont:hover .icon{
+    transform: rotate(360deg ) scale(1.5);
+
+color: rgb(var(--heading));
+}
 .sk:hover, .skillsCont:hover{
     transform: scale(1.1, 1.1);
 }
-.sk:hover i{
-    transform: rotate(360deg );
-    /* transform: scale(1.2, 1.2); */
-}
+
 
 .sk{
     transform: translateX(-1000%);
