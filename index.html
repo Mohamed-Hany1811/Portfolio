@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Hany</title>
+    <link rel="stylesheet" href="styles/all.css" />
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+  </head>
+  <body class="position-relative">
+    <!--  loader-->
+    <div class="loader d-none position-absolute top-0 start-0 w-100 h-100">
+      <div
+        class="loader_text d-flex justify-content-center align-items-center min-vh-100"
+      >
+        <div class="position-relative top-0 start-0 w-100">
+          <h2
+            class="text-uppercase loaderText position-absolute top-0 start-50 translate-middle-x"
+            data-text="welcome......."
+          >
+            welcome.......
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- the navBar -->
+    <div class="position-fixed navB top-0 w-100">
+      <nav class="navbar navbar-expand-sm">
+        <div class="container">
+          <a class="navbar-brand" href="#home"> Mohamed</a>
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+              <li class="nav-item text-center">
+                <a class="nav-link active" href="#" aria-current="page"
+                  >Home <span class="visually-hidden">(current)</span></a
+                >
+              </li>
+              <li class="nav-item  text-center">
+                <a class="nav-link" href="#aboutMe">about</a>
+              </li>
+              <li class="nav-item  text-center">
+                <a class="nav-link" href="#skills">skills</a>
+              </li>
+              <li class="nav-item  text-center">
+                <a class="nav-link" href="#portfolio">portfolio</a>
+              </li>
+              <li class="nav-item  text-center">
+                <a class="nav-link" href="#contactInfo">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- home -->
+    <div class="home min-vh-100 w-100 position-relative" id="home">
+      <div class="backgroundlayer position-absolute w-100 h-100 top-0 start-0">
+        <img
+          src="imgs/pexels-cottonbro-studio-5483071.jpg"
+          alt=""
+          class="w-100 h-100"
+        />
+      </div>
+
+      <div
+        class="mainLayer  position-absolute top-0 w-100 h-100 d-flex justify-content-center align-items-center bg-black bg-opacity-50"
+      >
+        <div class="container-fluid text-capitalize text-center">
+          <h2 class="text-white">hi i'm</h2>
+          <h1 class="Myname ">Mohamed Hany</h1>
+          <h2 class=" typing text-white">I'm a web</h2>
+          <div class="btns my-4 mx-auto d-flex justify-content-center">
+            <button class="btn hoverEffect btn-secondary mx-3">hire me</button>
+            <button class="btn hoverEffect btn-outline-light">
+              contact me
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- the color pallete -->
+      <div class="position-fixed palleteContainer d-flex">
+        <div class="colorsContainer overflow-hidden   w-75 h-100">
+          <div
+            class="container d-flex justify-content-evenly align-items-center flex-wrap w-100 h-75"
+          >
+            <h4 class=" headingPallete w-100">choose a color</h4>
+
+            <div class="bg-opacity-10 shadow color-1 w-25 h-25 clickable"></div>
+            <div class=" shadow color-2 w-25 h-25 clickable"></div>
+            <div class=" shadow color-3 w-25 h-25 clickable"></div>
+            <div class=" shadow color-4 w-25 clickable h-25"></div>
+          </div>
+        </div>
+        <div
+          class="iconcontainer shadow rounded-end  w-25 h-25 m-auto d-flex justify-content-center align-items-center"
+        >
+          <i class="fas fa-gear icon openIcon  fa-spin clickable"></i>
+          <i class="fas fa-x  icon  fa-beat closeIcon clickable d-none"></i>
+        </div>
+      </div>
+      <div class="nextBtn translate-middle-x">
+        <a href="#aboutMe">
+          <div
+            class="border border-1 border-white rounded-pill clickable position-relative m-0  p-0"
+            style="height: 3rem; width: 1.5rem"
+          >
+            <!-- <div class="w-75  h-25 rounded-circle mx-auto my-1 bg-white iconCircle  "></div> -->
+            <i class="fas fa-angle-down  text-white iconCircle"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- about section -->
+
+    <div class="aboutMe py-4 position-relative" id="aboutMe">
+      <div
+        class="row aboutCard overflow-hidden container m-auto p-5 mt-4 rounded-4 shadow"
+      >
+        <div class="col-md-6 aboutCardAN col-sm-12 text-center my-2">
+          <div class="container pic position-relative m-0 p-0 w-75">
+            <img src="imgs/1 (1).png " alt="" class="w-100" />
+            <div
+              class="picLayer overflow-hidden position-absolute w-100 h-100 bg-secondary bg-opacity-75 mx-auto d-flex justify-content-evenly align-items-center"
+            >
+              <a
+                href="https://www.facebook.com/profile.php?id=100009368524963&mibextid=ZbWKwL"
+                target="_blank"
+              >
+                <i class=" fab fa-facebook icon-1"></i>
+              </a>
+              <a
+                href="http://www.linkedin.com/in/mohamed-hany-1727b5129"
+                target="_blank"
+              >
+                <i class="fs-4 fab fa-linkedin icon-2"></i>
+              </a>
+              <a href="https://github.com/Mohamed-Hany1811" target="_blank">
+                <i class="fs-4 fab fa-github icon-3"></i>
+              </a>
+              <a href="https://wa.me/1122717172" target="_blank">
+                <i class="fs-4 fab fa-whatsapp icon-4"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 aboutCardAN col-sm-12 my-2">
+          <h2 class="aboutTitle   heading mb-3">About me</h2>
+          <p>
+            Hi, I am Mohamed Hany, i wrok as a front end engineer, i have
+            graduated from faculty of commere bussines information system
+            deparment 2023, i have taken takes a diploma in front end
+            engineering, and i am currently taking a diploma in back end, i have
+            made many project as afront end and i have many skills that i am
+            going to show you <a href="#skills" class="below">Below</a>, and i am eager to work with
+            such awesome clients. i would be happy to hear from you.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- skills section -->
+
+    <div id="skills" class="skills p-4">
+      <div class="container skillsCard px-4 border rounded-4 shadow">
+        <div class="my-3 text-center">
+          <h2 class="  heading">skills</h2>
+
+          <div class="my-3 row ">
+            <div class="col-md-3 sk col-sm-6 p-2 card-group">
+              <div class="container skillsCont  bg-secondary bg-opacity-10 p-4">
+                <i class="fa-solid icon  fa-pen-ruler"></i>
+                <h4>Web Design</h4>
+              </div>
+            </div>
+            <div class="col-md-3 sk col-sm-6 p-2 card-group">
+              <div class="container skillsCont bg-secondary bg-opacity-10 p-4">
+                <i class="fa-solid icon  fa-gears"></i>
+                <h4>Web Development</h4>
+              </div>
+            </div>
+            <div class="col-md-3 sk col-sm-6 p-2 card-group">
+              <div class="container skillsCont bg-secondary bg-opacity-10 p-4">
+                <i class="fa-solid icon  fa-laptop-code"></i>
+                <h4>clean code</h4>
+              </div>
+            </div>
+            <div class="col-md-3 sk col-sm-6 p-2 card-group">
+              <div class="container skillsCont bg-secondary bg-opacity-10 p-4">
+                <i class="fa-solid icon fa-chart-line"></i>
+                <h4>business analysis</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="row skillsProgress">
+            <div class="col-md-6 my-3">
+              <div class="d-flex justify-content-between">
+                <h4>HTML5</h4>
+                <h4>95%</h4>
+              </div>
+              <div
+                class="progress bg-secondary bg-opacity-25"
+                role="progressbar"
+                aria-label="Success example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-danger" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="col-md-6 my-3">
+              <div class="d-flex justify-content-between">
+                <h4>CSS3</h4>
+                <h4>90%</h4>
+              </div>
+              <div
+                class="progress bg-secondary bg-opacity-25"
+                role="progressbar"
+                aria-label="Info example"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-info" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="col-md-6 my-3">
+              <div class="d-flex justify-content-between">
+                <h4>bootstrap</h4>
+                <h4>95%</h4>
+              </div>
+              <div
+                class="progress bg-secondary bg-opacity-25"
+                role="progressbar"
+                aria-label="Warning example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-warning" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="col-md-6 my-3">
+              <div class="d-flex justify-content-between">
+                <h4>Javascript</h4>
+                <h4>85%</h4>
+              </div>
+              <div
+                class="progress bg-secondary bg-opacity-25"
+                role="progressbar"
+                aria-label="Danger example"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-success" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="col-md-6 my-3">
+              <div class="d-flex justify-content-between">
+                <h4>Jquery</h4>
+                <h4>90%</h4>
+              </div>
+              <div
+                class="progress bg-secondary bg-opacity-25"
+                role="progressbar"
+                aria-label="Danger example"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-primary" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="col-md-6 my-3">
+              <div class="d-flex justify-content-between">
+                <h4>Angular</h4>
+                <h4>80%</h4>
+              </div>
+              <div
+                class="progress bg-secondary bg-opacity-25"
+                role="progressbar"
+                aria-label="Danger example"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-danger" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio  -->
+
+    <div class="portfolio p-4" id="portfolio">
+      <div class="container portfolioCard px-4 border rounded-4 shadow">
+        <h2 class=" text-center heading">Portfolio</h2>
+        <div class="row my-3 g-3 position-relative">
+          <div class="col-md-6 portfolioCards">
+            <div class="card rounded-2 p-2 w-100 h-100">
+              <div class="imgCont position-relative overflow-hidden h-100">
+                <div
+                  class="position-absolute top-0 imgLayer d-flex justify-content-center align-items-center w-100 h-100 bg-black bg-opacity-50"
+                >
+                  <div class="card-body text-white text-center">
+                    <h4 class="card-title">bakery</h4>
+                    <p class="card-text">
+                      this website is made with simple HtML and Css
+                    </p>
+                    <a
+                      href="https://mohamed-hany1811.github.io/bakery/"
+                      target="_blank"
+                      class="p-0"
+                    >
+                      <button class="hoverEffect btn btn-primary">
+                        Deployment
+                      </button>
+                    </a>
+                
+                  </div>
+                </div>
+
+                <img
+                  class="card-img-top w-100 h-100 rounded-2"
+                  src="imgs/bakery.png"
+                  alt="Title"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 portfolioCards">
+            <div class="card rounded-2 p-2 w-100 h-100">
+              <div
+                class="imgCont position-relative w-100 h-100 overflow-hidden"
+              >
+                <div
+                  class="position-absolute top-0 imgLayer d-flex justify-content-center align-items-center w-100 h-100 bg-black bg-opacity-50"
+                >
+                  <div class="card-body text-white text-center">
+                    <h4 class="card-title">simone</h4>
+                    <p class="card-text">
+                      this portfolio is made with html, css, and bootstrap
+                    </p>
+                    <a
+                      href="https://mohamed-hany1811.github.io/Simone_portfolio/"
+                      target="_blank"
+                      class="p-0"
+                    >
+                      <button class="hoverEffect btn btn-primary">
+                        Deployment
+                      </button>
+                    </a>
+                
+                  </div>
+                </div>
+
+                <img
+                  class="card-img-top w-100 h-100 rounded-2"
+                  src="imgs/portfolio.png"
+                  alt="Title"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 portfolioCards">
+            <div class="card rounded-2 p-2 w-100 h-100">
+              <div
+                class="imgCont w-100 h-100 position-relative overflow-hidden"
+              >
+                <div
+                  class="position-absolute top-0 imgLayer d-flex justify-content-center align-items-center w-100 h-100 bg-black bg-opacity-50"
+                >
+                  <div class="card-body text-white text-center">
+                    <h4 class="card-title">party</h4>
+                    <p class="card-text">
+                      this website is made with html, css, bootstrap, javascript
+                      and Jquery
+                    </p>
+                    <a
+                      href="https://mohamed-hany1811.github.io/Party/"
+                      target="_blank"
+                      class="p-0"
+                    >
+                      <button class="hoverEffect btn btn-primary">
+                        Deployment
+                      </button>
+                    </a>
+                
+                  </div>
+                </div>
+                <img
+                  class="card-img-top w-100 h-100 rounded-2"
+                  src="imgs/Jquery.png"
+                  alt="Title"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 portfolioCards">
+            <div class="card rounded-2 p-2 w-100 h-100">
+              <div
+                class="imgCont w-100 h-100 position-relative overflow-hidden"
+              >
+                <div
+                  class="position-absolute top-0 imgLayer d-flex justify-content-center align-items-center w-100 h-100 bg-black bg-opacity-50"
+                >
+                  <div class="card-body text-white text-center">
+                    <h4 class="card-title">GameOver</h4>
+                    <p class="card-text">
+                      this website is made with
+                      html,css,bootstrap,javascript,Jquery, OOP, and api
+                    </p>
+                    <a
+                      href="https://mohamed-hany1811.github.io/GameOver/"
+                      target="_blank"
+                      class="p-0"
+                    >
+                      <button class="hoverEffect btn btn-primary">
+                        Deployment
+                      </button>
+                    </a>
+                
+                  </div>
+                </div>
+                <img
+                  class="card-img-top w-100 h-100 rounded-2"
+                  src="imgs/gameover.png"
+                  alt="Title"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- clients review  -->
+    <div id="client" class="py-4">
+      <div class="container clientsCard border border-2 rounded-2 shadow p-4">
+        <div class="client-head-container">
+          <div class="client-head text-center mb-4">
+            <h2 class="heading">Client Speak</h2>
+          </div>
+        </div>
+
+        <div class="comments-container container">
+          <div class="row gy-4">
+            <div class="col-md-6 card-group">
+              <div class="container com shadow">
+                <div class="comdetails row">
+                  <div class="col-sm-6 d-flex justify-content-center">
+
+                  <img src="imgs/12.jpg" alt=""  />
+                  </div>
+                  <div class="col-sm-6">
+
+                    <div class="container text-center">
+                      <h3>Chris Tom</h3>
+                      <span>User from USA</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="container text-center">
+
+                  
+                <p>
+                I am happy Working with printing and typesetting industry.
+                  Quidam lisque persius interesset his et, in quot quidam
+                  persequeris essent possim iriure.â€
+                </p>
+
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6  card-group">
+              <div class="container com shadow">
+                <div class="comdetails row">
+                  <div class="col-sm-6 d-flex justify-content-center">
+
+                  <img src="imgs/11.jpg" alt="" />
+                  </div>
+                  <div class="col-sm-6">
+                  <div class="container">
+
+                    <h3>Patrik carry</h3>
+                    <span>Freelancer from USA</span>
+                  </div>
+                  </div>
+                </div>
+                <div class="container text-center">
+
+                <p>
+                  I am happy Working with printing and typesetting industry.
+                  Quidam lisque persius interesset his et, in quot quidam
+                  persequeris essent possim iriure.â€
+                </p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact info  -->
+
+    <div class="contactInfo py-4" id="contactInfo">
+      <div class="container contactCard p-4 border rounded-4 shadow">
+        <div class="row g-5 py-3 overflow-hidden">
+          <div class="col-md-6 overflow-hidden">
+            <h2 class=" heading">Contact Info</h2>
+            <h4 class="my-3 text-wrap">phone: <span>01122717172</span></h4>
+            <h4 class="my-3 text-wrap">
+              Email: <span>mohamed5mohamed6@gmail.com</span>
+            </h4>
+            <h4 class="my-3 text-wrap">address: <span>Cairo, Egypt</span></h4>
+
+            <div class="my-3 text-center py-3">
+              <button class="btn btn-lg hoverEffect btn-secondary">
+                hire me
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <form action="" class="form py-3">
+              <input
+                type="text"
+                class="form-control my-3"
+                placeholder="User Name"
+              />
+              <input
+                type="text"
+                class="form-control my-3"
+                placeholder="User Mail"
+              />
+              <textarea
+                name=""
+                id=""
+                class="form-control"
+                placeholder="enter your message"
+              ></textarea>
+            </form>
+            <button class="btn btn-lg btn-danger">send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- up icon -->
+
+    <div class="position-fixed   end-0 bottom-0 mx-2 my-3">
+      <a href="#home" >
+        <i class="fas fa-arrow-circle-up  upIcon fa-beat clickable fs-3"></i>
+      </a>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/mainJS.js"></script>
+  </body>
+</html>
