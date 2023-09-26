@@ -238,18 +238,21 @@ animation: load 6s linear infinite;
 .palleteContainer{
     z-index:999999;
     left: 0;
-    width: 25%;
+    width: 30%;
     height: 30%;
     top:50%;
     transform: translateY(-50%);
 }
 .colorsContainer{
 background-color: rgb(var(--main-theme-cards-color));
+width: 80%;
 
 }
 .iconcontainer{
     background-color: rgb(var(--heading));
+    width: 20%;
 }
+
 
 
 .color-1{
